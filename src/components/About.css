@@ -7,6 +7,7 @@ body {
 .about-container {
   text-align: center;
   padding-top: 60px; /* Adjust padding to account for fixed navbar */
+  width: 100%;
 }
 
 .about-hero {
@@ -14,12 +15,15 @@ body {
   background-size: cover;
   position: relative;
   padding: 100px 20px;
+  width: inherit;
+  object-fit: cover;
   color: #ffffff;
-  width: 100vw;
+  width: 100%;
+  
 }
 
 .about-hero .overlay {
-  background: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+  background: rgba(237, 235, 235, 0.6); /* Black overlay with opacity */
   padding: 50px;
   border-radius: 10px;
   display: inline-block;
@@ -44,7 +48,7 @@ body {
 
 .mission, .vision {
   width: 45%;
-  text-align: left;
+  text-align: center;
 }
 
 .mission h2, .vision h2 {
@@ -58,36 +62,36 @@ body {
 }
 
 .values-section {
-  padding: 50px 20px;
-  background: #f0f8ff; /* Soft background color */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .values-section h2 {
+  margin-bottom: 20px;
   font-size: 2.5em;
-  margin-bottom: 1em;
-  color: #333;
 }
+
 
 .values-section ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
-  max-width: 600px; /* Constrain width for better readability */
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.values-section ul li {
-  font-size: 1.2em;
-  margin: 10px 0;
-  text-align: center;
-  padding: 10px;
-  background: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow to list items */
+.values-section li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.values-section li:before {
+  content: "•";
+  position: relative;
+  left: 0;
+  color: #333;
 }
 
 .team-section {

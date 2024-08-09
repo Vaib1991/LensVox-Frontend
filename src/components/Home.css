@@ -79,7 +79,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1 1 calc(25% - 40px); /* Responsive design for four columns */
   max-width: calc(25% - 40px); /* Responsive design for four columns */
-  text-align: left;
+  text-align: center;
 }
 
 .service-card h3 {

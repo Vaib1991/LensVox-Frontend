@@ -25,11 +25,11 @@ function About() {
       <section className="values-section">
         <h2>Our Values</h2>
         <ul>
-          <li>Innovation: Pushing the boundaries of AI technology.</li>
-          <li>Integrity: Conducting business with the highest ethical standards.</li>
-          <li>Excellence: Delivering exceptional quality in everything we do.</li>
-          <li>Collaboration: Working together to achieve common goals.</li>
-        </ul>
+      <li>Innovation: Pushing the boundaries of AI technology.</li>
+      <li>Integrity: Conducting business with the highest ethical standards.</li>
+      <li>Excellence: Delivering exceptional quality in everything we do.</li>
+      <li>Collaboration: Working together to achieve common goals.</li>
+    </ul>
       </section>
       <section className="team-section">
         {/* <h2>Meet Our Team</h2>
