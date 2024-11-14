@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+// eslint-disable-next-line no-unused-vars
 import aboutBackgroundImage from './images/about-background.jpg'; // Ensure you have the generated image saved as 'about-background.jpg'
 
 function About() {

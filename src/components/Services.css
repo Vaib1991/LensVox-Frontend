@@ -1,22 +1,43 @@
-.container {
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
+
+
+.services-section {
+  padding: 95px 100px;
+  background: #f4f4f9;
+  gap: 5px;
+  
 }
 
-h1 {
+.services-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
   color: #333;
+  text-align: center;
 }
 
-ul {
-  padding-left: 20px;
-  color: #666;
+.services-section p {
+  text-align: center;
 }
 
-ul li {
-  margin-bottom: 10px;
+
+.service-cards {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-p {
-  color: #666;
+.service-card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(25% - 40px); /* Responsive design for four columns */
+  max-width: calc(25% - 40px); /* Responsive design for four columns */
+  text-align: center;
+}
+
+.service-card h3 {
+  color: #ff7f50;
 }
