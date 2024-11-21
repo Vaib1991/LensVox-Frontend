@@ -85,14 +85,3 @@ body {
 .service-card h3 {
   color: #ff7f50;
 }
-
-.footer-section {
-  background: #333;
-  color: white;
-  padding: 20px;
-}
-
-.footer-section p {
-  margin: 0;
-  font-size: 0.9em;
-}

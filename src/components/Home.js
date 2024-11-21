@@ -36,9 +36,7 @@ function Home() {
         </div>
       </section>
       
-      <footer className="footer-section">
-        <p>© 2024 LensVox. All rights reserved.</p>
-      </footer>
+     
     </div>
   );
 }
