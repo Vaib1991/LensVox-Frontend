@@ -1,33 +1,64 @@
-.container {
-  padding: 100px;
-  max-width: 100px;
-  margin: auto;
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
-.projects-section {
-  padding :157px 100px;
-  background: #FBFBFB;
-  gap: 5px;
-  
+.projects-container {
+  text-align: center;
+  padding-top: 60px; /* Adjust padding to account for fixed navbar */
 }
 
-.projects-section h1 {
-  font-size: 2.5em;
-  margin-bottom: 1em;
-  color:rgb(8, 9, 9) ;
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
   text-align: center;
 }
 
-.projects-cards {
-  margin-top: 2em;
+.hero-section .overlay {
+  background: rgba(245, 245, 245, 0.8); /* Light overlay with opacity */
+  padding: 70px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.hero-section h1 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+
+.project-list-section {
+  padding: 50px 20px;
+  background: #e6f7ff; /* Light blue background */
+}
+
+.project-list-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.project-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.projects-card {
-  background:  #f4f4f9;
+.project-card {
+  background: white;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
@@ -37,6 +68,6 @@
   text-align: center;
 }
 
-.projects-card h2 {
-  color: rgb(8, 9, 9);
+.project-card h3 {
+  color: #4682b4; /* Match button color for consistency */
 }

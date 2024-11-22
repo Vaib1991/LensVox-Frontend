@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import NavBar from './components/NavBar';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/footer" element={<Footer />} />
         </Routes>
+        <Footer path="/Footer" element={<Footer/>} />
       </div>
     </Router>
   );

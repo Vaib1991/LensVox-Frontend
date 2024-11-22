@@ -1,10 +1,10 @@
-/* Contact Page Styles */
+/* Contact.css */
 .contact-page {
   padding: 20px;
   text-align: center;
   background-color: #fff;
 }
-
+ 
 .contact-us-form {
   max-width: 600px;
   margin: 0 auto;
@@ -15,13 +15,13 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
+ 
 .contact-us-form label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
 }
-
+ 
 .contact-us-form input,
 .contact-us-form textarea {
   width: 100%;
@@ -30,7 +30,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
+ 
 .contact-us-form button {
   display: block;
   width: 100%;
@@ -45,41 +45,41 @@
   box-shadow: none;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
-
+ 
 .contact-us-form button:hover {
   background-color: #e5673d;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
-
+ 
 .contact-page:focus{
   border: 2px solid #ff6600 ;
 }
-
+ 
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-page {
     padding: 20px;
   }
-
+ 
   .contact-us-form {
     padding: 15px;
   }
 }
-
+ 
 @media (max-width: 550px) {
   .contact-us-form label {
     font-size: 14px;
   }
-
+ 
   .contact-us-form input,
   .contact-us-form textarea {
     font-size: 14px;
   }
-
+ 
   .contact-us-form button {
     padding: 10px;
     font-size: 14px;
-
+ 
   }
 }

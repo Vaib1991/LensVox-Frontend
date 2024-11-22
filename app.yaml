@@ -6,6 +6,3 @@ handlers:
 - url: /.*
   static_files: build/index.html
   upload: build/index.html
-- url: /.
-  script: auto
-  secure: always  

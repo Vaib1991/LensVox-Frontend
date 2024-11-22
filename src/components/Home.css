@@ -6,7 +6,7 @@ body {
 
 .home-container {
   text-align: center;
-  padding-top: 60px; /* Adjust padding to account for fixed navbar */
+  padding-top: 30px; /* Adjust padding to account for fixed navbar */
 }
 
 .hero-section {
@@ -86,13 +86,3 @@ body {
   color: #ff7f50;
 }
 
-.footer-section {
-  background: #333;
-  color: white;
-  padding: 20px;
-}
-
-.footer-section p {
-  margin: 0;
-  font-size: 0.9em;
-}

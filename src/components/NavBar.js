@@ -9,7 +9,8 @@ function NavBar() {
         <div className="navbar-logo">
           <Link to="/">LensVox</Link>
         </div>
-
+        
+          
         <ul className="navbar-list">
           <li className="navbar-item"><Link to="/"></Link></li>
           <li className="navbar-item"><Link to="/about">About</Link></li>
