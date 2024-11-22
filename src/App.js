@@ -13,17 +13,20 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="app-container">
         <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
-        <Footer path="/Footer" element={<Footer/>} />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+        </div>
+        {/* Footer is a shared component and should not be wrapped as a route */}
+        <Footer />
       </div>
     </Router>
   );
