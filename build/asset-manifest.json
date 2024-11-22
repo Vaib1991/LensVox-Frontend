@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3cdc898.css",
-    "main.js": "/static/js/main.53e1aaed.js",
-    "static/media/about-background.jpg": "/static/media/about-background.28c829f93402d2fd8851.jpg",
-    "static/media/background.jpg": "/static/media/background.df343d3e70fd8435e22e.jpg",
+    "main.css": "/static/css/main.f492cb86.css",
+    "main.js": "/static/js/main.0b969be2.js",
+    "static/media/projects-bg.png": "/static/media/projects-bg.53a0558e08f55a7c36b9.png",
+    "static/media/services-bg.png": "/static/media/services-bg.c7fe236ec5fa1db4f389.png",
+    "static/media/Logo_LensVox.png": "/static/media/Logo_LensVox.b3bbbe3957b6a69f6a59.png",
+    "static/media/about-background.jpg": "/static/media/about-background.d3a93b9db9eff721e673.jpg",
+    "static/media/background.jpg": "/static/media/background.0d3ab8cb7580805a07c3.jpg",
     "index.html": "/index.html",
-    "main.d3cdc898.css.map": "/static/css/main.d3cdc898.css.map",
-    "main.53e1aaed.js.map": "/static/js/main.53e1aaed.js.map"
+    "main.f492cb86.css.map": "/static/css/main.f492cb86.css.map",
+    "main.0b969be2.js.map": "/static/js/main.0b969be2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3cdc898.css",
-    "static/js/main.53e1aaed.js"
+    "static/css/main.f492cb86.css",
+    "static/js/main.0b969be2.js"
   ]
 }
